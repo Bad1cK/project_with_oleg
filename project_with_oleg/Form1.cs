@@ -31,10 +31,7 @@ namespace project_with_oleg
         public Form1()
         {
             InitializeComponent();
-            UC_Home home = new UC_Home();
-            addUserControl(home);
-            UC_Trading trading = new UC_Trading();
-            addUserControl(trading);
+            
         }
         private void addUserControl(UserControl userControl)
         {
@@ -82,9 +79,7 @@ namespace project_with_oleg
             //ButtonHome.Visible = false;
             _obj = this;
 
-            Home home = new Home();
-            home.Dock = DockStyle.Fill;
-            panel_start.Controls.Add(home);
+            
         }
 
         private void bunifuButton2_Click(object sender, EventArgs e)
@@ -137,6 +132,24 @@ namespace project_with_oleg
 
         }
 
-        
+        private void bunifuCustomLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

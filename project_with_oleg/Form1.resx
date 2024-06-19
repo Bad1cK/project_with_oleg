@@ -124,6 +124,20 @@
     <value>25</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAM4AAAA7CAYAAAAzQLVuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADLSURBVHhe7dOxEUBAAABBlXzL9KcM+aMAjLl4g40uvmVs
+        cx/beQJ/zf0e5ykAX4wDgXEgMA4ExoHAOBAYBwLjQGAcCIwDgXEgMA4ExoHAOBAYBwLjQGAcCIwDgXEg
+        MA4ExoHAOBAYBwLjQGAcCIwDgXEgMA4ExoHAOBAYBwLjQGAcCIwDgXEgMA4ExoHAOBAYBwLjQGAcCIwD
+        gXEgMA4ExoHAOBAYBwLjQGAcCIwDgXEgMA4ExoHAOBAYBwLjQGAcCJaxzuMpAC/WeVzeLeD1FWAEJwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuCustomLabel3.Text" xml:space="preserve">
+    <value>We're here for aspiring traders who want to kickstart their career without financial risk or those looking to sharpen their skills for free. 
+With our demo money, you can dive into the trading world, learn, and grow at your own pace.</value>
+  </data>
   <data name="bunifuButton5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAANgAAAAqCAYAAADRepX/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8

@@ -69,5 +69,25 @@ namespace project_with_oleg.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_06_19_122909 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-06-19 122909", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_06_19_1229091 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-06-19 1229091", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
