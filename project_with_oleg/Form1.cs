@@ -1,5 +1,6 @@
 ﻿using Bunifu.UI.WinForms;
 using Bunifu.UI.WinForms.BunifuButton;
+using project_with_oleg.UserControls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,6 +28,21 @@ namespace project_with_oleg
                 return _obj;
             }
         }
+        public Form1()
+        {
+            InitializeComponent();
+            UC_Home home = new UC_Home();
+            addUserControl(home);
+            UC_Trading trading = new UC_Trading();
+            addUserControl(trading);
+        }
+        private void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panel_start.Controls.Clear();
+            panel_start.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
         public Panel Panel_home
         {
             get { return panel_start; }
@@ -48,26 +64,18 @@ namespace project_with_oleg
 
         private void button_home_clk(object sender, EventArgs e)
         {
-            panel_start.Controls["Home"].BringToFront();
+            //panel_start.Controls["Home"].BringToFront();
             //ButtonHome.Visible = false;
-
+            UC_Home home = new UC_Home();
+            addUserControl(home);
            
         }
         private void button_trading_clk(object sender, EventArgs e)
         {
-            if (!Form1.Instance.panel_start.Controls.ContainsKey("Trade"))
-            {
-                Trading trade = new Trading();
-                trade.Dock = DockStyle.Fill;
-                Form1.Instance.panel_start.Controls.Add(trade);
-            }
-            Form1.Instance.panel_start.Controls["Trade"].BringToFront();
-            
+            UC_Trading trading = new UC_Trading();
+            addUserControl(trading);
         }
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        
       
         private void Form1_Load(object sender, EventArgs e)
         {

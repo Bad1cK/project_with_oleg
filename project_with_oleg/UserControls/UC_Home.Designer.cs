@@ -1,6 +1,6 @@
-﻿namespace project_with_oleg
+﻿namespace project_with_oleg.UserControls
 {
-    partial class Trading
+    partial class UC_Home
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,26 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.SuspendLayout();
             // 
-            // label1
+            // bunifuLabel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(496, 252);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Trading";
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel1.Location = new System.Drawing.Point(513, 191);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(78, 20);
+            this.bunifuLabel1.TabIndex = 0;
+            this.bunifuLabel1.Text = "home_page";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // Trading
+            // UC_Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(45)))), ((int)(((byte)(60)))));
-            this.Controls.Add(this.label1);
-            this.Name = "Trading";
+            this.Controls.Add(this.bunifuLabel1);
+            this.Name = "UC_Home";
             this.Size = new System.Drawing.Size(1138, 667);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -56,6 +62,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project_with_oleg
 {
-    public partial class Trading : UserControl
+    public partial class UC_Trading : UserControl
     {
-        public Trading()
+        public UC_Trading()
         {
             InitializeComponent();
         }
