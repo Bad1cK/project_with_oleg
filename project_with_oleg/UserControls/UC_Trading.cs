@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Net;
+using System.Diagnostics;
 
 namespace project_with_oleg
 {
@@ -18,8 +21,9 @@ namespace project_with_oleg
             InitializeComponent();
         }
 
-        private void UC_Trading_Load(object sender, EventArgs e)
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
+
             string html = @"
                 <!-- TradingView Widget BEGIN -->
                 <div class='tradingview-widget-container'>
@@ -79,7 +83,8 @@ namespace project_with_oleg
                 </div>
                 <!-- TradingView Widget END -->";
 
-            webBrowser1.DocumentText = html;
+            //webBrowser1.DocumentText = html;
+            webBrowser1.Navigate("www.google.com");
         }
     }
 
