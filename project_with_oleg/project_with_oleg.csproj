@@ -118,6 +118,12 @@
     <Compile Include="UserControls\UC_Home.Designer.cs">
       <DependentUpon>UC_Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UC_Tutorial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Tutorial.Designer.cs">
+      <DependentUpon>UC_Tutorial.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +142,9 @@
     </Compile>
     <EmbeddedResource Include="UserControls\UC_Home.resx">
       <DependentUpon>UC_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Tutorial.resx">
+      <DependentUpon>UC_Tutorial.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

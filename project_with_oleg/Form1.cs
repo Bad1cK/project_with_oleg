@@ -72,8 +72,19 @@ namespace project_with_oleg
             UC_Trading trading = new UC_Trading();
             addUserControl(trading);
         }
-        
-      
+        private void button_Tutorial_start_clk(object sender, EventArgs e)
+        {
+            UC_Tutorial tutorial = new UC_Tutorial(); 
+            addUserControl(tutorial);
+        }
+        private void button_tutorial_menu_clk(object sender, EventArgs e)
+        {
+            
+            UC_Tutorial tutorial = new UC_Tutorial();
+            addUserControl(tutorial);
+        }
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             //ButtonHome.Visible = false;
@@ -147,9 +158,6 @@ namespace project_with_oleg
 
         }
 
-        private void bunifuButton1_Click_1(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
