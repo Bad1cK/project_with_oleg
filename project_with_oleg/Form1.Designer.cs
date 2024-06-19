@@ -20,6 +20,17 @@
             base.Dispose(disposing);
         }
 
+
+
+
+
+
+
+
+
+
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -896,6 +907,12 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
+
+
+
+
     }
+
+
 }
 
